@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mervin's Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: black;
+            display: flex;
+        }
+        .left-side {
+            width: 40%;
+            height: 100vh;
+            position: relative;
+        }
+        .left-side img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .name-designation {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            text-align: left;
+        }
+        .name-designation h1 {
+            color: white;
+            margin-bottom: 0;
+        }
+        .name-designation h4 {
+            color: #3498db;
+            margin-top: 5px;
+        }
+        .right-side {
+            width: 60%;
+            padding: 40px;
+        }
+        h1, h2 {
+            color: #3498db;
+        }
+        .achievements {
+            color: #3498db;
+        }
+        .skill {
+            margin-bottom: 20px;
+        }
+        .skill-bar {
+            background-color: #333;
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .skill-progress {
+            height: 100%;
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-side">
+        <img src="C:\Users\REC\Desktop\user unknown.jpg" alt="Your Photo">
+        <div class="name-designation">
+            <h1>Mervin</h1>
+            <h4>CSE Student</h4>
+        </div>
+    </div>
+    <div class="right-side">
+        <h1>Resume</h1>
+        <p class="achievements">Achievement 1 / Achievement 2 / Achievement 3</p>
+        <p>
+            [Your description about former education & achievements goes here. 
+            For example: Currently pursuing a degree in Computer Science Engineering 
+            at XYZ University. Participated in multiple hackathons and coding competitions, 
+            developing strong skills in software development and problem-solving.]
+        </p>
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>Web Development</p>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 92%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Graphic Design</p>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Data Structures</p>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 88%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Algorithm Design</p>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>Database Management</p>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 87%;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
